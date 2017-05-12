@@ -21,9 +21,9 @@ calculate methylation level based on given Grange from bsseq object
 
 ## rna-seq related funtions
 ## utility functions
-1. `generate.sliding.window`  1
+1. `generate.sliding.window`  
 generate sliding window ranges
-2. `bedtools.coveragebed.range`  
+2. `bedtools.coveragebed.range`    
 calculate overlap % between 2 bed files, need bedtools installed
 3. `bedtools.coveragebed`  
 calculate overlap % between 2 bed files, need bedtools instal
