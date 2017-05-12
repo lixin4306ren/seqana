@@ -2,15 +2,15 @@
 chip-seq, bs-seq, rna-seq processing scripts
 
 ## chip-seq related functions
-1 `diff_peaks_replicate`  
+1. `diff_peaks_replicate`   
 merge peaks based on replicates and find differentially peaks between 2 samples
-2 `merge_peaks`  
+2. `merge_peaks`  
 merge neighbouring peaks to large one by given distance
-3 `get_common_peak3`  
+3. `get_common_peak3`  
 extract common peaks based on replicates
-4 `cal.rpkm.chip`  
+4. `cal.rpkm.chip`  
 this function calculate RPKM for chip-seq data, support bam and bed input format
-5 `annotatePeaks`  
+5. `annotatePeaks`  
 find nearest gene asscosiated with given peaks, deault database is human.gencodeV19
 
 ## bs-seq related functions
