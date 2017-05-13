@@ -1,6 +1,13 @@
 # seqana
 chip-seq, bs-seq, rna-seq processing scripts
 
+## installation  
+```
+install.packages("devtools")
+library("devtools")
+install_github("lixin4306ren/seqana")
+```
+
 ## chip-seq related functions
 1. `diff_peaks_replicate`   
 merge peaks based on replicates and find differentially peaks between 2 samples
