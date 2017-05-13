@@ -3,7 +3,6 @@ chip-seq, bs-seq, rna-seq processing scripts
 
 ## installation  
 ```
-install.packages("devtools")
 library("devtools")
 install_github("lixin4306ren/seqana")
 ```
